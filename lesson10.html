@@ -7,7 +7,10 @@
 </head>
 <body>
 
+<div>Hi Max!</div>
+<div>Hi Max2!</div>
 <canvas id="myCanvas" width="480" height="320"></canvas>
+
 
 <script>
     var canvas = document.getElementById("myCanvas");
@@ -88,7 +91,7 @@
     function drawBall() {
         ctx.beginPath();
         ctx.arc(x, y, ballRadius, 0, Math.PI*2);
-        ctx.fillStyle = "#0095DD";
+        ctx.fillStyle = "#000000";
         ctx.fill();
         ctx.closePath();
     }
